@@ -1,59 +1,43 @@
-# BuzzfeedMarvel
+# Buzzfeed Marvel Quiz 🦸‍♂️
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.4.
+Este projeto é uma aplicação web interativa desenvolvida em **Angular** (v18+) que simula um quiz no estilo "BuzzFeed" para descobrir qual Vingador da Marvel combina mais com a sua personalidade.
 
-## Development server
+> 🎓 **Nota Acadêmica**: Este projeto foi desenvolvido apenas como um **exercício prático** para o curso de Angular. Não possui fins comerciais.
 
-To start a local development server, run:
+## 🚀 Tecnologias Utilizadas
 
-```bash
-ng serve
-```
+- **Angular 18+** (Standalone Components, Signals, Routing)
+- **TailwindCSS** (Estilização utilitária e Design System)
+- **TypeScript**
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🎨 Design System
 
-## Code scaffolding
+O projeto segue um design moderno "Task Flow" com tema escuro (Dark Mode), utilizando uma paleta de cores baseada em **Slate** e **Navy**.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🛠️ Como Executar
 
-```bash
-ng generate component component-name
-```
+1. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+2. **Execute o servidor de desenvolvimento:**
+   ```bash
+   ng serve
+   ```
 
-```bash
-ng generate --help
-```
+3. **Acesse a aplicação:**
+   Abra o navegador em `http://localhost:4200`
 
-## Building
+## 📦 Build e Deploy
 
-To build the project run:
+Para gerar a versão de produção:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Os arquivos serão gerados na pasta `dist/buzzfeed-marvel/browser`.
 
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+Desenvolvido por João C. Farias (e Antigravity AI) 🤖
